@@ -4,6 +4,7 @@ using System.Text;
 
 namespace CodeBlogFitness.BL.Models
 {
+    [Serializable]
     /// <summary>
     /// Gender
     /// </summary>

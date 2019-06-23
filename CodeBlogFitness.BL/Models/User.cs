@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using CodeBlogFitness.BL.Controllers;
 
 namespace CodeBlogFitness.BL.Models
 {
+    [Serializable]
     public class User
     {
         #region Свойства
@@ -74,6 +76,11 @@ namespace CodeBlogFitness.BL.Models
         public override string ToString()
         {
             return Name;
+        }
+
+        public static implicit operator User(UserController v)
+        {
+            throw new NotImplementedException();
         }
     }
 }

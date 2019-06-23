@@ -13,7 +13,7 @@ namespace CodeBlogFitness.BL.Controllers
     public class UserController
     {
         /// <summary>
-        /// Пользователт приложения 
+        /// Пользователь приложения 
         /// </summary>
         public User User { get; }
 
@@ -21,7 +21,12 @@ namespace CodeBlogFitness.BL.Controllers
         /// Создание нового контроллера пользователя
         /// </summary>
         /// <param name="user"></param>
-        public UserController(string  userName, string genderName, DateTime birthday, double weight, double height) {
+        public UserController(string  userName, 
+                              string genderName, 
+                              DateTime birthday, 
+                              double weight, 
+                              double height)
+        {
             //TODO проверка
 
             var gender = new Gender(userName);

@@ -22,6 +22,8 @@ namespace CodeBlogFitness.BL.Models
                     double weight, 
                     double height)
         {
+            //comment
+            //comment 3
             //if(string.)
             Name = name;
             Gender = gender;

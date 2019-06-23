@@ -27,7 +27,7 @@ namespace CodeBlogFitness.BL.Models
 
             Name = name;
         }
-
+        //comment 2
         public override string ToString()
         {
             return Name;

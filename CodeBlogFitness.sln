@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29006.145
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBlogFitness.BL", "CodeBlogFitness.BL\CodeBlogFitness.BL.csproj", "{7BA03465-2BF7-45F5-A1C6-348065DFB4D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBlogFitness.BL", "CodeBlogFitness.BL\CodeBlogFitness.BL.csproj", "{7BA03465-2BF7-45F5-A1C6-348065DFB4D1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBlogFitness.CMD", "CodeBlogFitness.CMD\CodeBlogFitness.CMD.csproj", "{6FEF0090-2222-48FC-B566-01665C97AF2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProjectControllers", "UnitTestProjectControllers\UnitTestProjectControllers.csproj", "{74EE9BBE-8825-4582-8C1D-243164DCE1E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6FEF0090-2222-48FC-B566-01665C97AF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FEF0090-2222-48FC-B566-01665C97AF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FEF0090-2222-48FC-B566-01665C97AF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74EE9BBE-8825-4582-8C1D-243164DCE1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74EE9BBE-8825-4582-8C1D-243164DCE1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74EE9BBE-8825-4582-8C1D-243164DCE1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74EE9BBE-8825-4582-8C1D-243164DCE1E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,7 @@
+using System;
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CodeBlogFitness.BL.Controllers;
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -39,6 +40,8 @@ namespace CodeBlogFitness.BL.Controllers
             Assert.AreEqual(weight, controller2.CurrentUser.Weight);
             Assert.AreEqual(height, controller2.CurrentUser.Height);
             Assert.AreEqual(gender, controller2.CurrentUser.Gender.Name);
+
+            //done
         }
 
         [TestMethod]
@@ -52,5 +55,26 @@ namespace CodeBlogFitness.BL.Controllers
 
             Assert.AreEqual(userName, controller.CurrentUser.Name); ;
         }
+
+        [TestMethod]
+        public void AddTest()
+        {
+            //Arrange
+            var userName = Guid.NewGuid().ToString();
+            var foodName = Guid.NewGuid().ToString();
+            var rnd = new Random();
+            var userController = new UserController(userName);
+            var eatingController = new EatingController(userController.CurrentUser);
+
+            var food = 
+            //Act
+            var controller = new UserController(userName);
+            //Assert
+
+            Assert.AreEqual(userName, controller.CurrentUser.Name); 
+            var data  = Encoding
+        }
+
+
     }
 }
